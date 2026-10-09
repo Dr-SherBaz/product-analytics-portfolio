@@ -1,0 +1,7 @@
+{
+  "activation_success": "User completes first valuable generation within 3 days of signup.",
+  "feature_adoption": "User uses at least one core feature (tts, voice_clone, api) after activation.",
+  "retained_d7": "User starts a session on day 7 relative to activation date.",
+  "activation_rate": "activated_users / signups for the cohort date.",
+  "certified_layer": "fct_user_product_kpis + mart_daily_product_health with uniqueness/range tests."
+}

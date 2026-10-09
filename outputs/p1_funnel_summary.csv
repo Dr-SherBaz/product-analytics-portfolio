@@ -1,0 +1,7 @@
+stage,users,rate_of_signup
+signup,12000,1.0
+activated,6854,0.5711666666666667
+adopted_any_feature,5306,0.44216666666666665
+retained_d1,3064,0.25533333333333336
+retained_d7,2172,0.181
+retained_d30,1228,0.10233333333333333

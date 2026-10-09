@@ -1,0 +1,17 @@
+version: 2
+models:
+  - name: fct_user_product_kpis
+    description: Certified user-grain product KPI fact for activation, adoption, retention.
+    columns:
+      - name: user_id
+        tests: [unique, not_null]
+      - name: signup_date
+        tests: [not_null]
+      - name: activated
+        tests:
+          - accepted_values:
+              values: [0, 1]
+      - name: retained_d7
+        tests:
+          - accepted_values:
+              values: [0, 1]

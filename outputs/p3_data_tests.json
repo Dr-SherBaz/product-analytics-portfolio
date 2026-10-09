@@ -1,0 +1,6 @@
+{
+  "unique_user_id": 1,
+  "not_null_signup_date": 1,
+  "activation_in_0_1": 1,
+  "retention_lte_activation_share": 1.0
+}

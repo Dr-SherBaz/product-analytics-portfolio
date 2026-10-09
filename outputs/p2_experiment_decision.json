@@ -1,0 +1,36 @@
+{
+  "experiment": "onboarding_checklist_v1",
+  "hypothesis": "A guided onboarding checklist increases activation_success within 3 days without harming D7 retention.",
+  "primary_metric": "activated",
+  "guardrail_metrics": [
+    "retained_d7"
+  ],
+  "decision": "SHIP",
+  "rationale": "Activation lift is significant with non-negative D7 retention guardrail.",
+  "primary_result": {
+    "control_rate": 0.5172355525515376,
+    "treatment_rate": 0.6236435383097665,
+    "lift_abs": 0.10640798575822885,
+    "lift_rel": 0.20572442329866014,
+    "z": 11.775208144639231,
+    "p_value": 0.0,
+    "ci95_low": 0.08879140121845126,
+    "ci95_high": 0.12402457029800644,
+    "metric": "activated",
+    "n_control": 5918,
+    "n_treatment": 6082
+  },
+  "guardrail_result": {
+    "control_rate": 0.1434606285907401,
+    "treatment_rate": 0.21752712923380466,
+    "lift_abs": 0.07406650064306455,
+    "lift_rel": 0.516284512138582,
+    "z": 10.535633471635263,
+    "p_value": 0.0,
+    "ci95_low": 0.060381626091823015,
+    "ci95_high": 0.08775137519430609,
+    "metric": "retained_d7",
+    "n_control": 5918,
+    "n_treatment": 6082
+  }
+}

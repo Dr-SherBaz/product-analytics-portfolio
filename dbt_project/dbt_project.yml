@@ -1,0 +1,11 @@
+name: product_analytics_portfolio
+version: 1.0.0
+config-version: 2
+profile: product_analytics_portfolio
+model-paths: ["models"]
+models:
+  product_analytics_portfolio:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

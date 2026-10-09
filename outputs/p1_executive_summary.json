@@ -1,0 +1,7 @@
+{
+  "users": 12000,
+  "activation_rate": 0.5711666666666667,
+  "feature_adoption_rate": 0.44216666666666665,
+  "d7_retention": 0.181,
+  "biggest_dropoff": "signup -> activation"
+}
